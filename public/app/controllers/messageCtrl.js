@@ -31,6 +31,6 @@ angular.module('messageCtrl', ['messageService'])
 
 				console.log(vm.message);
 			});
-		$location.path('/messages');
+		$location.path('/thankyou');
 	}
 });
