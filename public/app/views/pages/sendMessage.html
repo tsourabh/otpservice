@@ -1,0 +1,38 @@
+<div class="main-raised main" style="margin-top:0px;">
+<div class="container">
+
+<div class="section landing-section" style="padding-top:130px;">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<h4 class="title">Send OTP SMS to User </h4>
+<form class="contact-form" ng-submit="sendMessage.sendMessage()">
+    <div class="row">
+        <div class="col-md-6">
+			<div class="form-group label-floating">
+				<label class="control-label">Your Name</label>
+				<input ng-model="sendMessage.messageData.reciever" class="form-control" name="reciever">
+			</div>
+        </div>
+    </div>
+
+	<div class="form-group label-floating">
+		<label class="control-label">Your Messge</label>
+		<textarea ng-model="sendMessage.messageData.content" class="form-control" rows="4" name="content"></textarea>
+	</div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <button class="btn btn-danger btn-raised">
+				Send OTP
+			</button>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+
+</div>
+</div>
+
+
+</div>

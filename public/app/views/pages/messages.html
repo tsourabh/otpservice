@@ -1,0 +1,28 @@
+	<div class="main-raised main" style="margin-top:0px;">
+		<div class="container">
+	    	
+	    	<div class="section landing-section" style="padding-top:130px;">	    
+	    	<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2">
+				<table class="table">
+				    <thead>
+				        <tr>
+				            <th class="text-center">Message ID</th>
+				            <th class="text-center">Reciever</th>
+				            <th class="text-center">OTP</th>
+				            <th class="text-right">Time</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr ng-repeat="message in allMessages.messages">
+				            <td class="text-center">{{ message._id }}</td>
+				            <td class="text-center">{{ message.reciever }}</td>
+				            <td class="text-center">{{ message.otp }}</td>
+				            <td class="text-right">{{ message.create }}</td>
+				        </tr>
+				    </tbody>
+				</table>
+	        </div>
+	        </div>
+        	
+        </div>
+	</div>
