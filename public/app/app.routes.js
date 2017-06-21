@@ -6,10 +6,6 @@ angular.module('appRoutes', ['ngRoute'])
 		.when('/',{
 			templateUrl: 'app/views/pages/home.html'
 		})
-
-		.when('/contacts',{
-			templateUrl: 'app/views/pages/contacts.html'
-		})
 		.when('/send',{
 			templateUrl: 'app/views/pages/sendMessage.html',
 			controller:"messageCreateController",
